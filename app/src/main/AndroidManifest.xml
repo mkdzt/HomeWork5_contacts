@@ -11,6 +11,7 @@
         android:theme="@style/Theme.HomeWork5_contacts">
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.HomeWork5_contacts.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
