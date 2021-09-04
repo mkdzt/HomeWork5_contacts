@@ -3,9 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/contactListFragment2">
+    app:startDestination="@id/contactListFragment">
     <fragment
-        android:id="@+id/contactListFragment2"
+        android:id="@+id/contactListFragment"
         android:name="com.example.homework5_contacts.ui.contactList.ContactListFragment"
-        android:label="ContactListFragment" />
+        android:label="ContactListFragment" >
+        <action
+            android:id="@+id/action_contactListFragment_to_contactDetailsFragment"
+            app:destination="@id/contactDetailsFragment" />
+        <argument
+            android:name="contact"
+            app:argType="com.example.homework5_contacts.entity.Contact" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactDetailsFragment"
+        android:name="com.example.homework5_contacts.ui.contactDetails.ContactDetailsFragment"
+        android:label="ContactDetailsFragment" />
 </navigation>
