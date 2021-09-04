@@ -1,4 +1,4 @@
-package com.example.homework5_contacts
+package com.example.homework5_contacts.entity
 
 object Contacts {
     val list = listOf(

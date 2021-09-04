@@ -6,6 +6,6 @@
     app:startDestination="@id/contactListFragment2">
     <fragment
         android:id="@+id/contactListFragment2"
-        android:name="com.example.homework5_contacts.ContactListFragment"
+        android:name="com.example.homework5_contacts.ui.contactList.ContactListFragment"
         android:label="ContactListFragment" />
 </navigation>

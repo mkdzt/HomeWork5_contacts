@@ -1,7 +1,8 @@
-package com.example.homework5_contacts
+package com.example.homework5_contacts.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.homework5_contacts.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

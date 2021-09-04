@@ -1,12 +1,13 @@
-package com.example.homework5_contacts
+package com.example.homework5_contacts.ui.contactList
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.homework5_contacts.R
+import com.example.homework5_contacts.adapter.ContactListAdapter
+import com.example.homework5_contacts.entity.Contacts
 
 class ContactListFragment:Fragment(R.layout.fragment_contact_list) {
     private lateinit var rvContacts:RecyclerView

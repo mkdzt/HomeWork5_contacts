@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeWork5_contacts">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:theme="@style/Theme.HomeWork5_contacts.SplashScreen"
             android:exported="true">
             <intent-filter>

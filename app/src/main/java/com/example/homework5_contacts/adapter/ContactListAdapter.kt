@@ -1,10 +1,12 @@
-package com.example.homework5_contacts
+package com.example.homework5_contacts.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.homework5_contacts.R
+import com.example.homework5_contacts.entity.Contact
 
 class ContactListAdapter(private val contacts:List<Contact>) : RecyclerView.Adapter<ContactListAdapter.ViewHolder>() {
 
