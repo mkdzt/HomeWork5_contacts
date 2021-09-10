@@ -1,7 +1,7 @@
 package com.example.homework5_contacts.entity
 
 object Contacts {
-    val contactList = mutableListOf<Contact>()
+    val contactList:ArrayList<Contact> = ArrayList()
 
     fun createContacts(){
         for (i in 0..150){
