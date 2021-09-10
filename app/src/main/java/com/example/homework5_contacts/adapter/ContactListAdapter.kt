@@ -36,7 +36,7 @@ class ContactListAdapter(
         holderContact.bind(contact)
     }
 
-    //очень костылёво конечно
+    //очень костылёво конечно, не работает удаление(по-хорошему во viewmodel надо всё красиво делать)
     override fun getFilter(): Filter {
         return object : Filter(){
             override fun performFiltering(textFilter: CharSequence?): FilterResults {
