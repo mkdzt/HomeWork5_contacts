@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HomeWork5_contacts</string>
+    <string name="contact_image">Contact image</string>
 </resources>
